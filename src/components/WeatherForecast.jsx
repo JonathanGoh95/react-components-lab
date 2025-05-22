@@ -1,9 +1,9 @@
 import './WeatherForecast.css'
 import WeatherData from './WeatherData';
 
-const WeatherForecast = ({day,img,imgAlt,conditions,time}) => {
+const WeatherForecast = (props) => {
     return(
-            <WeatherData day={day} conditions={conditions} img={img} alt={imgAlt} time={time}/>
+            <WeatherData {...props}/>
     )
 }
 

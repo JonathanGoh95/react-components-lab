@@ -3,7 +3,7 @@ import WeatherData from './WeatherData';
 
 const WeatherForecast = (props) => {
     return(
-            <WeatherData {...props}/>
+        <WeatherData {...props}/>
     )
 }
 
